@@ -4,7 +4,7 @@ import random as ran
 
 st.title('Find Your Perfect Quote!')
 st.markdown('### You can either get a random quote:')
-file = '~/Documents/Programming/Quotes/MediumArticle.csv'
+file = './MediumArticle.csv'
 
 @st.cache
 def getData(file):
